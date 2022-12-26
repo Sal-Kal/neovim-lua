@@ -1,6 +1,8 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>o", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>O", ":Vex<cr>")
 vim.keymap.set("n", "<leader>bk", vim.cmd.q)
+vim.keymap.set("n", "<leader>kk", ":q!<cr>")
 vim.keymap.set("n", "<leader>fs", vim.cmd.w)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -23,3 +25,11 @@ vim.keymap.set("i", "jk", "<Esc>")
 
 vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+
+vim.keymap.set("n", "H", "0")
+vim.keymap.set("n", "L", "$")
+
+vim.keymap.set("n", "<leader>wh", "<C-w>h")
+vim.keymap.set("n", "<leader>wj", "<C-w>j")
+vim.keymap.set("n", "<leader>wk", "<C-w>k")
+vim.keymap.set("n", "<leader>wl", "<C-w>l")

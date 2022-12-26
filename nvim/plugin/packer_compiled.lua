@@ -209,6 +209,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sal/.local/share/nvim/site/pack/packer/start/vim-jsx-improve",
     url = "https://github.com/neoclide/vim-jsx-improve"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/sal/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 

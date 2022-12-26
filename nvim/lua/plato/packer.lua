@@ -47,4 +47,5 @@ return require('packer').startup(function(use)
     use('jose-elias-alvarez/null-ls.nvim')
     use 'windwp/nvim-ts-autotag'
     use 'neoclide/vim-jsx-improve'
+    use 'tpope/vim-surround'
 end)
