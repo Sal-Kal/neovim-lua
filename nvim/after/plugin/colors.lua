@@ -7,6 +7,7 @@ function ColorMyPencils(color)
     vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
     vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
     vim.api.nvim_set_hl(0, "CursorLine", { bg = "none" })
+    vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
     vim.api.nvim_set_hl(0, "Pmenu", {
         bg = "none",
         fg = "#00FFFF"
