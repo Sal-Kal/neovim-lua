@@ -3,7 +3,7 @@ vim.keymap.set("n", "<leader>n", ":vi ")
 vim.keymap.set("n", "<leader>bk", ":q!<cr>")
 vim.keymap.set("n", "<leader>q", ":qall<cr>")
 vim.keymap.set("n", "<leader>fs", vim.cmd.w)
-vim.keymap.set("n", "<leader>O", "<C-w>v")
+vim.keymap.set("n", "<leader>O", ":vsp<cr>")
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
@@ -11,8 +11,6 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "<C-j>", "<C-d>zz")
 vim.keymap.set("n", "<C-k>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
-
-vim.keymap.set("x", "p", "\"_dp")
 
 vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
@@ -35,3 +33,5 @@ vim.keymap.set("n", "<leader>wk", "<C-w>k")
 vim.keymap.set("n", "<leader>wl", "<C-w>l")
 
 vim.keymap.set("n", "<leader>o", ":NvimTreeToggle<cr>")
+
+vim.keymap.set("x", "p", "\"_dP")
