@@ -1,4 +1,3 @@
 require("plato")
-vim.api.nvim_command('let g:netrw_liststyle=3')
+require('leap').add_default_mappings()
 vim.api.nvim_command('filetype plugin indent on')
-vim.api.nvim_command('set clipboard=unnamedplus')

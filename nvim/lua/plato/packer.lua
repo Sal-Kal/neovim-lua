@@ -11,8 +11,7 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-    use 'rebelot/kanagawa.nvim'
-    use 'Shatur/neovim-ayu'
+    use 'shaunsingh/nord.nvim'
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('nvim-treesitter/playground')
     use('theprimeagen/harpoon')
@@ -48,4 +47,12 @@ return require('packer').startup(function(use)
     use 'windwp/nvim-ts-autotag'
     use 'neoclide/vim-jsx-improve'
     use 'tpope/vim-surround'
+    use 'tpope/vim-repeat'
+    use 'ggandor/leap.nvim'
+    use 'nvim-tree/nvim-web-devicons'
+    use 'nvim-tree/nvim-tree.lua'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 end)
