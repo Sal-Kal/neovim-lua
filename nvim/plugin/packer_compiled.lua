@@ -104,6 +104,16 @@ _G.packer_plugins = {
     path = "/home/sal/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["deoplete-jedi"] = {
+    loaded = true,
+    path = "/home/sal/.local/share/nvim/site/pack/packer/start/deoplete-jedi",
+    url = "https://github.com/deoplete-plugins/deoplete-jedi"
+  },
+  ["deoplete.nvim"] = {
+    loaded = true,
+    path = "/home/sal/.local/share/nvim/site/pack/packer/start/deoplete.nvim",
+    url = "https://github.com/Shougo/deoplete.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/sal/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -214,6 +224,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sal/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-django-support"] = {
+    loaded = true,
+    path = "/home/sal/.local/share/nvim/site/pack/packer/start/vim-django-support",
+    url = "https://github.com/lambdalisue/vim-django-support"
   },
   ["vim-fugitive"] = {
     loaded = true,
